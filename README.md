@@ -1,5 +1,5 @@
 # usbcam_apriltag
-![Build - Noetic](https://img.shields.io/:Build-Noetic-yellowgreen.svg)
+![Build - noetic](https://img.shields.io/:Build-noetic-yellowgreen.svg)
 [![license - MIT](https://img.shields.io/:license-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
 
 
