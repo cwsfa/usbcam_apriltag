@@ -1,4 +1,7 @@
 # usbcam_apriltag
+![Build - Noetic](https://img.shields.io/:Build-Noetic-yellowgreen.svg)
+[![license - MIT](https://img.shields.io/:license-MIT-yellowgreen.svg)](https://opensource.org/licenses/MIT)
+
 
 You can plug in your any usb cameras to detect apriltag using this package.
 
