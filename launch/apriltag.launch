@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- continous_detection launch -->
+  <include file="$(find apriltag_ros)/launch/continuous_detection.launch">
+    <remap from="/usb_cam/image_raw" to="/camera/image_raw"/>
+    <remap from="/usb_cam/camera_info" to="/camera/camera_info" />
+  </include>
+
+</launch>

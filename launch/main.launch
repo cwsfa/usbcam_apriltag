@@ -1,0 +1,15 @@
+<launch>
+
+  <!-- usb camera -->
+  <include file="$(find usbcam_apriltag)/launch/camera.launch" />
+
+  <!-- continous_detection launch -->
+  <include file="$(find usbcam_apriltag)/launch/apriltag.launch" />
+
+  <!-- gazebo launch -->
+  <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch" /> -->
+
+  <!-- rviz -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find usbcam_apriltag)/rviz/rviz.rviz"/>
+
+</launch>
