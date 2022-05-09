@@ -9,8 +9,8 @@ Downloading and building the package
 
 ```bash
 cd ~/catkin_ws/src/
-git clone https://github.com/bxtbold/usbcam_apriltag.git
-cd ~/catkin_ws && rosdep install --from-paths src --rosdistro <$ROS_DISTRO> -y
+git clone https://github.com/cwsfa/usbcam_apriltag.git
+cd ~/catkin_ws && rosdep install --from-paths src --rosdistro noetic -y
 catkin build    # or catkin_make
 ```
 Then execute the following to check the result
