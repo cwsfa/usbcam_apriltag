@@ -4,7 +4,10 @@
   <include file="$(find usbcam_apriltag)/launch/camera.launch" />
 
   <!-- continous_detection launch -->
-  <include file="$(find usbcam_apriltag)/launch/apriltag.launch" />
+  <include file="$(find usbcam_apriltag)/launch/apriltag.launch">
+    <remap from="/usb_cam/image_raw" to="/camera/image_raw"/>
+    <remap from="/usb_cam/camera_info" to="/camera/camera_info" />
+  </include>
 
   <!-- gazebo launch -->
   <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch" /> -->
